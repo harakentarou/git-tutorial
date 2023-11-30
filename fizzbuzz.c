@@ -9,6 +9,8 @@ for(int i = 0;i<100; i++)
 	printf("buzz");
 	else if(i % 3 == 0 && i % 5 == 0)
 	printf("fizzbuzz");
+	else if(i % 7 == 0)
+	printf("git");
 }
 return 0;
 }
